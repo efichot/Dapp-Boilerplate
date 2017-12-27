@@ -2,7 +2,7 @@
 import 'theme/inject'
 import 'theme/stylesheet/app.global.css'
 /*-------------------External Dependencies-----------------------*/
-import React from 'React'
+import React from 'react'
 /*-------------------Internal Dependencies-----------------------*/
 // import Providers from 'providers'
 // import Routes from "store/routes/EntryRoutes";

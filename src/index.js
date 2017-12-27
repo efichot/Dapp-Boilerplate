@@ -1,12 +1,12 @@
 /*----------------------External Dependencies--------------------------*/
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { AppContainer } from 'react-hot-loader';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { AppContainer } from 'react-hot-loader'
 
 /*----------------------Internal Dependencies--------------------------*/
-import Root from './interface';
-import { configureStore, history } from "./interface/store/configuration";
-import registerServiceWorker from './registerServiceWorker';
+import Root from 'interface'
+import { configureStore, history } from 'store/configuration'
+import registerServiceWorker from './registerServiceWorker'
 
 // /*----------------------Initialize Dependencies--------------------------*/
 // const store = configureStore();

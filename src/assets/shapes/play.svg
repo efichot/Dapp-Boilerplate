@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 416 416" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+    <g id="Page-1" stroke="none" stroke-  fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 1.000000)">
+            <circle id="Oval" stroke="#979797" fill-opacity="0.701568161"  cx="207" cy="207" r="207"></circle>
+            <path d="M306.37867,199.093088 C312.739325,203.488234 312.736602,210.609148 306.37867,214.993899 L152.711862,320.970303 L152.711862,92.9109092 L306.37867,199.093088 Z" id="Triangle" ></path>
+        </g>
+    </g>
+</svg>

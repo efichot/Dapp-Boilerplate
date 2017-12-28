@@ -1,0 +1,41 @@
+{
+  "rules": {
+    /* Disable Everything  */
+    ".read"  : false,
+    ".write" : false,
+
+    /* Self - Secure Accounts  */
+    "user": {
+      "$uid": {
+        ".read": "$uid === auth.uid",
+        ".write": "$uid === auth.uid"
+      }
+    },
+
+    /* Organization - Role Permissions  */
+    "organization": {
+      "$uid": {
+        ".read": "(root.child('roles').child('admin').hasChild(auth.uid))",
+        ".write": "(root.child('roles').child('admin').hasChild(auth.uid))"
+      }
+    },
+    
+    /* Infrastructure - Role Permissions  */
+    "infrastructure": {
+      "$uid": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+
+    /* Mutate - Role Permissions  */
+    "mutate": {
+      "$uid": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    }
+
+  }
+}
+

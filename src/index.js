@@ -9,18 +9,18 @@ import { configureStore, history } from 'store/configuration'
 import registerServiceWorker from './registerServiceWorker'
 
 // /*----------------------Initialize Dependencies--------------------------*/
-// const store = configureStore();
+const store = configureStore();
 
 // /*----------------------Module Package--------------------------*/
-// const rootElement = document.getElementById('root');
-// ReactDOM.render(<AppContainer><Root store={ store } history={ history } /></AppContainer>, rootElement);
+const rootElement = document.getElementById('root');
+ReactDOM.render(<AppContainer><Root store={ store } history={ history } /></AppContainer>, rootElement);
 
-// if (module.hot) {
-//     module.hot.accept('./interface', () => {
-//         const NextRoot = require('interface');
-//         ReactDOM.render(<AppContainer><NextRoot store={ store } history={ history } /></AppContainer>, rootElement );
-//     })
-// }
+if (module.hot) {
+    module.hot.accept('./interface', () => {
+        const NextRoot = require('interface');
+        ReactDOM.render(<AppContainer><NextRoot store={ store } history={ history } /></AppContainer>, rootElement );
+    })
+}
 
-// /*----------------------Service Worker--------------------------*/
-// registerServiceWorker();
+/*----------------------Service Worker--------------------------*/
+registerServiceWorker();

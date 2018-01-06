@@ -2,6 +2,9 @@
 ### Synapsis
 Full speed Ahead for internet 3.0 and Blockchain Interopability.
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+The Dapp-Boilerplate boilerplate integrates uPort and Firebase. In other words cloud resources, application permissions and other identity related features can be administrered from the uPort Self-Sovereign Identity Systems and deployed within Google's Firebase (Infrastructure as a Service).
+
 ```
 git clone https://github.com/efichot/Dapp-Boilerplate
 
@@ -21,3 +24,8 @@ The Backend is built primary with Firebase.
 1. Atomic Design Philosophy
 2. Component/Container Separation
 3. Functional State Management
+
+## How It Works
+1. Login With uPort
+2. Attest Firebase UID
+3. Request Application Permissions

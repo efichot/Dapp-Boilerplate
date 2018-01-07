@@ -1,0 +1,25 @@
+.DraftEditor-root,
+.DraftEditor-editorContainer,
+.public-DraftEditor-content {
+  height: 100%;
+}
+
+.RichEditor-styleButton  {
+  background:#dfdfdf;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 7px;
+}
+
+.RichEditor-activeButton {
+  background:linear-gradient(0deg,#EB3349,#F45C43);
+  color: #FFF; 
+}
+
+.RichEditor-styleButton:not(:first-of-type) {
+  margin-left: 5px;
+}
+
+.public-DraftEditor-content > div > div {
+  margin-bottom: 10px;
+}

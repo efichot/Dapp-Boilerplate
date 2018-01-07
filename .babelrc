@@ -10,7 +10,10 @@
         }],
         "transform-regenerator",
         "transform-class-properties",
-        "transform-object-rest-spread", "add-module-exports", "dynamic-import-webpack"],
+        "transform-object-rest-spread", 
+        "add-module-exports",
+        "dynamic-import-webpack"
+        ],
   "env": {
     "production": {
       "presets": ["react-optimize"]

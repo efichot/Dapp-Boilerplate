@@ -47,8 +47,8 @@ module.exports = {
   appSrc: resolveApp('src'),
   
   appBuild: resolveApp('build/application'),
-  appPublic: resolveApp('entry/application'),
-  appHtml: resolveApp('entry/application/index.html'),
+  appPublic: resolveApp('public'),
+  appHtml: resolveApp('public/index.html'),
   appIndexJs: resolveApp('src/application/index.js'),
 
   embedBuild: resolveApp('build/embed'),

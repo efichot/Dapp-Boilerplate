@@ -52,7 +52,7 @@ You can use this .wasm file with the wasm-loader for webpack, see how it's work 
 ```
     npm install -g webassembly
 ```
-
+ps: You can use this Website: for testing and compiling fast c into wasm (https://mbebenita.github.io/WasmExplorer/) for not being cumbersome.
 **Emscripten**
 Emscripten is use to compile .c or .cpp in .asm a javascript readable format but way slower than .asm.js
 For installation see this:

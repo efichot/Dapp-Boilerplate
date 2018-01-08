@@ -18,11 +18,11 @@ yarn build:asm // compile C or C++ into asm.js
 
 ```
 *logo*
-![logo](assets/logo-firebase.png)
-![logo](assets/uPort_icon.png)
-![logo](assets/react_redux-saga.png)
-![logo](assets/truffle_logo.png)
-![logo](assets/WebAssembly_logo.png)
+![logo](assets/logo-firebase.jpg)
+![logo](assets/uPort_icon.jpg)
+![logo](assets/react_redux-saga.jpg)
+![logo](assets/truffle_logo.jpg)
+![logo](assets/WebAssembly_logo.jpg)
 
 **Distributed Autonomous Management System**
 The Boilerplate aims to solve the challenge of starting a dapp or a app where you need to manage, organize and facilitate a large distributed network of people.

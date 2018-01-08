@@ -1,4 +1,4 @@
-# Boilerplate for app && Dapp
+# Boilerplate for Dapp
 ### Synapsis
 Full speed Ahead for internet 3.0 and Blockchain Interopability.
 > This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
@@ -17,7 +17,7 @@ yarn build:wasm // compile C or C++ into WebAssembly
 yarn build:asm // compile C or C++ into asm.js
 
 ```
-*logo*
+### *logo*
 ![logo](assets/logo-firebase.jpg)
 ![logo](assets/uPort_icon.jpg)
 ![logo](assets/react_redux-saga.jpg)

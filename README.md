@@ -1,7 +1,7 @@
 # Boilerplate for app && Dapp
 ### Synapsis
 Full speed Ahead for internet 3.0 and Blockchain Interopability.
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+> This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 The Dapp-Boilerplate boilerplate integrates uPort and Firebase. In other words cloud resources, application permissions and other identity related features can be administrered from the uPort Self-Sovereign Identity Systems and deployed within Google's Firebase (Infrastructure as a Service).
 
@@ -17,6 +17,13 @@ yarn build:wasm // compile C or C++ into WebAssembly
 yarn build:asm // compile C or C++ into asm.js
 
 ```
+*logo*
+![logo](assets/logo-firebase.png)
+![logo](assets/uPort_icon.png)
+![logo](assets/react_redux-saga.png)
+![logo](assets/truffle_logo.png)
+![logo](assets/WebAssembly_logo.png)
+
 **Distributed Autonomous Management System**
 The Boilerplate aims to solve the challenge of starting a dapp or a app where you need to manage, organize and facilitate a large distributed network of people.
 
@@ -33,10 +40,11 @@ The Backend is built primary with Firebase.
 
 The /functions forder is the folder who contains all the firebase functions so you can write modern javascript for serveless architecture.
 You will need to deploy the functions first if you want modify the way firebase add new user (authentication) and require only the UID (Unique Identifier) of uport app.
-See how to deploy cloud function on firebase website, you will need to change the /functions/index.js with your firebase private key in order to change the authentication.
-By the way uport is available for Android and IOS.
+See how to deploy cloud function on firebase website, (with the firebase CLI) you will need to change the /functions/index.js with your firebase private key in order to change the authentication. Again see the firebase docs for the firebase admin SDK and his private key for modifying your authentication server to produce custom signed tokens when a user succesfully signs in. Your app receives this token and uses it to authenticate with firebase.
 
-You have also a /contracts  folder for keeping your solidity smart contracts, and a truffle.js for communicate with testrpc, ganache or whatever. You can use `truffle develop` in the console right now, see the truffle doc.
+> By the way uport is available for Android and IOS.
+
+> You have also a /contracts  folder for keeping your solidity smart contracts, and a truffle.js for communicate with testrpc, ganache or whatever. You can use ```truffle develop``` in the console right now, see the truffle doc.
 
 ## How It Works
 1. Login With uPort

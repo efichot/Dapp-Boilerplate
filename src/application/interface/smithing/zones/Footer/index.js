@@ -15,7 +15,7 @@ export default props =>
   {...props}
 >
   <Container textAlign={['center']} w={[1,1, 720]} >
-    <Image src={graphics.logo} w={[155]} mb={[10]} />
-    <Paragraph f={[2]}>Open Source The World</Paragraph>
+    <Image src={graphics.yser} w={[155]} mb={[10]} />
+    <Paragraph f={[2]}>GDPR assistant</Paragraph>
   </Container>
 </Section>

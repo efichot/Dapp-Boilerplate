@@ -17,7 +17,7 @@ yarn build:wasm // compile C or C++ into WebAssembly
 yarn build:asm // compile C or C++ into asm.js
 
 ```
-### *logo*
+
 ![logo](assets/logo-firebase.jpg)
 ![logo](assets/uPort_icon.jpg)
 ![logo](assets/react_redux-saga.jpg)
@@ -38,7 +38,7 @@ The Backend is built primary with Firebase.
 2. Component/Container Separation
 3. Functional State Management
 
-The /functions forder is the folder who contains all the firebase functions so you can write modern javascript for serveless architecture.
+The functions forder is the folder who contains all the firebase functions so you can write modern javascript for serveless architecture.
 You will need to deploy the functions first if you want modify the way firebase add new user (authentication) and require only the UID (Unique Identifier) of uport app.
 See how to deploy cloud function on firebase website, (with the firebase CLI) you will need to change the /functions/index.js with your firebase private key in order to change the authentication. Again see the firebase docs for the firebase admin SDK and his private key for modifying your authentication server to produce custom signed tokens when a user succesfully signs in. Your app receives this token and uses it to authenticate with firebase.
 

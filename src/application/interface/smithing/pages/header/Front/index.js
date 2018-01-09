@@ -14,7 +14,7 @@ export default props =>
     
     <Box w={1} color="white" >
       <Heading fontSize={[5,6,7]} level={3} fontWeight={[300]} mb={10}>
-        DEX
+        YSER
       </Heading>
     </Box> 
 

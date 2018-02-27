@@ -6,6 +6,7 @@ import notifications from './notifications/sagas'
 import symbiosis from 'assimilation/symbiosis/sagas'
 export default function* rootSaga() {
   yield all([
-    ...symbiosis
+    ...symbiosis,
+    notifications()
   ]);
 }

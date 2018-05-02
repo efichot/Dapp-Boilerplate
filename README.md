@@ -23,6 +23,7 @@ yarn build:asm // compile C or C++ into asm.js
 ![logo](assets/react_redux-saga.jpg)
 ![logo](assets/truffle_logo.jpg)
 ![logo](assets/WebAssembly_logo.jpg)
+DRIZZLE
 
 **Distributed Autonomous Management System**
 The Boilerplate aims to solve the challenge of starting a dapp or a app where you need to manage, organize and facilitate a large distributed network of people.
